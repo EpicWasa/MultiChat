@@ -1,35 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ServerSide/ExistingUserException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ServerSide/NoSuchUserException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Account support added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClientSide/ClientMainServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ServerSide/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ServerSide/ServerInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sample/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sample/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ClientSide/ClientMainServer$ClientReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ClientSide/ClientMainServer$ClientWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ClientSide/ClientMainServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/MultiChat.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ServerSide/ExistingUserException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ServerSide/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ServerSide/NoSuchUserException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ServerSide/ServerInstance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiChat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MultiChat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MultiChat/ClientSide/ClientMainServer$ClientReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MultiChat/ClientSide/ClientMainServer$ClientWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MultiChat/ClientSide/ClientMainServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MultiChat/ServerSide/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MultiChat/ServerSide/ServerInstance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MultiChat/sample/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MultiChat/sample/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MultiChat/sample/application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MultiChat/sample/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClientSide/ClientMainServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ServerSide/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ServerSide/ServerInstance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -330,7 +321,16 @@
       <workItem from="1574613943083" duration="3404000" />
       <workItem from="1574694985955" duration="3754000" />
       <workItem from="1574781833125" duration="695000" />
+      <workItem from="1574835483036" duration="1877000" />
     </task>
+    <task id="LOCAL-00001" summary="Account support added">
+      <created>1574835678735</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574835678735</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,13 +378,8 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ServerSide/ServerInstance.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ServerSide/Main.java</url>
-          <line>57</line>
+          <line>56</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>

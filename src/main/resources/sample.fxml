@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="614.0" prefWidth="893.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <TextArea fx:id="TextAreaMain" editable="false" layoutX="80.0" layoutY="79.0" prefHeight="404.0" prefWidth="700.0" />
+        <TextField fx:id="TextFieldInput" layoutX="80.0" layoutY="524.0" prefHeight="31.0" prefWidth="598.0" />
+        <Button fx:id="ButtonSend" layoutX="695.0" layoutY="524.0" mnemonicParsing="false" onAction="#ButtonSendPressed" prefHeight="31.0" prefWidth="85.0" text="Send" />
+    </children>
+</Pane>
